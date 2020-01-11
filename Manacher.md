@@ -1,5 +1,6 @@
 # Manacher's Algorithm
 <a href="https://www.hackerrank.com/topics/manachers-algorithm">Manacher's Algorithm</a>
+<a href="https://www.youtube.com/watch?v=nbTSfrEfo6M&t=120s">Youtube Lecture</a>
 ```
 It's one of the most efficient ways of solving palindrome problems
 ```
