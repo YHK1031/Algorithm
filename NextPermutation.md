@@ -4,7 +4,7 @@
 <li>Find the largest index j where N[j]>N[i] by iterating from last index of the array to the index i found in previous step.
 <li>Reverse from i+1 to the last of the array.
 </ol>
-```Java
+```JAVA
 public static void nextPermute(int[] arr) {
 		int idx = -1;
 		for(int i=0;i<arr.length-1;i++) {
