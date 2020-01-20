@@ -1,8 +1,8 @@
 # NextPermutation
 <ol>
-<li>Find the last index i where N[i]<N[i+1] for the first iteration.
-<li>Find the largest index j where N[j]>N[i] by iterating from last index of the array to the index i found in previous step.
-<li>Reverse from i+1 to the last of the array.
+	<li>Find the last index i where N[i]<N[i+1] for the first iteration.</li>					  
+	<li>Find the largest index j where N[j]>N[i] by iterating from last index of the array to the index i found in previous step.</li>
+	<li>Reverse from i+1 to the last of the array.</li>
 </ol>
 
 ```JAVA
