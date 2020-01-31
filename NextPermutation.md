@@ -2,6 +2,7 @@
 <ol>
 	<li>Find the last index i where N[i] < N[i+1] for the first iteration.</li>
 	<li>Find the largest index j where N[j] > N[i] by iterating from last index of the array to the index i found in previous step.</li>
+	<li>Switch two of them each other.</li>
 	<li>Reverse from i+1 to the last of the array.</li>
 </ol>
 
@@ -21,10 +22,10 @@ public static void nextPermute(int[] arr) {
 				break;
 			}
 		}
-		for (int i = idx + 1; i < (arr.length + idx + 1) / 2; i++) {
-            int tmp = arr[i];
-            arr[i] = arr[arr.length - (i - idx)];
-            arr[arr.length - (i - idx)] = tmp;
-    }	
+	    for (int i = idx + 1; i < (arr.length + idx + 1) / 2; i++) {
+            	int tmp = arr[i];
+            	arr[i] = arr[arr.length - (i - idx)];
+            	arr[arr.length - (i - idx)] = tmp;
+    	    }	
 }
 ```
