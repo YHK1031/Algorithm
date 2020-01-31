@@ -22,10 +22,10 @@ public static void nextPermute(int[] arr) {
 				break;
 			}
 		}
-	    for (int i = idx + 1; i < (arr.length + idx + 1) / 2; i++) {
-            	int tmp = arr[i];
-            	arr[i] = arr[arr.length - (i - idx)];
-            	arr[arr.length - (i - idx)] = tmp;
-    	    }	
+	    	for (int i = idx + 1; i < (arr.length + idx + 1) / 2; i++) {
+            		int tmp = arr[i];
+            		arr[i] = arr[arr.length - (i - idx)];
+            		arr[arr.length - (i - idx)] = tmp;
+    	  	}	
 }
 ```
