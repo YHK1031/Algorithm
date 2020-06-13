@@ -38,8 +38,8 @@ t[t.length-1]='$';
 
 // converting a given string to a new form
 for(int j=0;j<s.length();j++){
-  t[j+2]=s.charAt(j);
-  t[j+3]='#';
+  t[2*j+2]=s.charAt(j);
+  t[2*j+3]='#';
 }
 
 for(int i=0;i<t.length;i++){
